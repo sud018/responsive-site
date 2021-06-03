@@ -83,7 +83,7 @@ object-fit: cover;
 
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 600px 1200px;
+    grid-template-rows: 200px 500px;
     position: relative;
     width: fit-content;
     border-top-left-radius: 100%;
@@ -142,7 +142,7 @@ object-fit: cover;
     font-size: 50px;
   }
   img{
-    height: 600px;
+    height: 200px;
     width: 700px;
     background-color: violet;
     opacity: 0.4;
