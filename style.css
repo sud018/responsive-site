@@ -69,7 +69,7 @@ object-fit: cover;
     top:300px;
   }
   .header{
-    height:1200px;
+    height:1800px;
 
     width:700px;
     background-color: #261d38;
@@ -82,7 +82,7 @@ object-fit: cover;
 
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 400px 800px;
+    grid-template-rows: 600px 1200px;
     position: relative;
     width: fit-content;
     border-top-left-radius: 100%;
@@ -91,7 +91,7 @@ object-fit: cover;
   .grid-main{
     display: grid;
     grid-template-rows: 100px 100px 100px;
-    grid-gap: 50px;
+    grid-gap: 70px;
   }
   .grid2{
     grid-area: 1/1/2/2;
@@ -101,42 +101,47 @@ object-fit: cover;
     grid-area: 1/1/2/2;
     text-align: center;
     font-size: 27px;
-    padding-top: 20px;
-    padding-left: 60px;
+    text-align: center;
+    /* padding-top: 20px;
+    padding-left: 60px; */
   }
   .grid12{
     grid-area: 2/1/3/2;
     text-align: center;
     font-size: 30px;
     width: 90%;
-    font-style: italic;
-    padding-top: 120px;
-    padding-left: 60px;
+    font-style: normal;
+    text-align: center;
+     padding-top: 120px;
+
+     line-height: 45px;
+    /* padding-left: 60px;  */
   }
   .grid13{
     grid-area: 3/1/4/2;
     display: grid;
     /* grid-template-columns: auto; */
     grid-template-rows: auto auto auto;
-    grid-row-gap: 20px;
-    padding-top: 150px;
-    padding-left: 80px;
+    grid-row-gap: 60px;
+
+    padding-top: 200px;
+    padding-left: 20px;
 
   }
   .grid13 > .one{
     grid-area: 1/2/2/3;
-    font-size: 30px;
+    font-size: 50px;
   }
   .grid13 > .two{
     grid-area: 2/2/3/3;
-    font-size: 30px;
+    font-size: 50px;
   }
   .grid13 > .three{
     grid-area: 3/2/4/3;
-    font-size: 30px;
+    font-size: 50px;
   }
   img{
-    height: 400px;
+    height: 600px;
     width: 700px;
     background-color: violet;
     opacity: 0.4;
