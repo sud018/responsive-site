@@ -58,32 +58,32 @@ object-fit: cover;
   opacity: 0.5;
 }
 
-@media screen and (min-width:100px) and (max-width:800px) {
+@media screen and (min-width:100px) and (max-width:600px) {
   body
   {
     background: #141624;
-    height:851px;
-    width:393px;
+    height:100%;
+    width:100%;
     left: 440px;
     position: absolute;
     top:300px;
   }
   .header{
-    height:700px;
+    height:1800px;
 
-    max-width: 300px;
+    max-width: 700px;
  margin: auto;
     background-color: #261d38;
     position: relative;
     border-radius: 6px;
     top: -200px;
-  left: -600px;
+  left: -480px;
   }
   .grid{
 
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: 200px 500px;
+    grid-template-rows: 600px 1200px;
     position: relative;
     width: fit-content;
     border-top-left-radius: 100%;
@@ -142,7 +142,7 @@ object-fit: cover;
     font-size: 50px;
   }
   img{
-    height: 200px;
+    height: 600px;
     width: 700px;
     background-color: violet;
     opacity: 0.4;
