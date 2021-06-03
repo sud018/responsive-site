@@ -69,9 +69,9 @@ object-fit: cover;
     top:300px;
   }
   .header{
-    height:1800px;
+    height:700px;
 
-    max-width: 700px;
+    max-width: 300px;
  margin: auto;
     background-color: #261d38;
     position: relative;
