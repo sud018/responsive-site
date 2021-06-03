@@ -58,7 +58,7 @@ object-fit: cover;
   opacity: 0.5;
 }
 
-@media screen and (min-width:100px) and (max-width:600px) {
+@media screen and (min-width:100px) and (max-width:393px) {
   body
   {
     background: #141624;
@@ -77,7 +77,7 @@ object-fit: cover;
     position: relative;
     border-radius: 6px;
     top: -200px;
-  left: -480px;
+  left: -600px;
   }
   .grid{
 
