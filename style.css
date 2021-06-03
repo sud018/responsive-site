@@ -71,7 +71,8 @@ object-fit: cover;
   .header{
     height:1800px;
 
-    width:700px;
+    max-width: 700px;
+ margin: auto;
     background-color: #261d38;
     position: relative;
     border-radius: 6px;
